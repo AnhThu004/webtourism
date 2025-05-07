@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Booking - Tropiq Trip</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container py-5">
+        <h1 class="text-center">Book Your Tour</h1>
+        <form class="mt-4">
+            <div class="mb-3">
+                <label for="name" class="form-label">Họ và tên</label>
+                <input type="text" class="form-control" id="name" placeholder="Nhập tên của bạn">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email liên hệ</label>
+                <input type="email" class="form-control" id="email" placeholder="you@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="tour" class="form-label">Chọn tour</label>
+                <select class="form-select" id="tour">
+                    <option>Đà Lạt mộng mơ</option>
+                    <option>Phú Quốc biển xanh</option>
+                    <option>Hà Nội nghìn năm văn hiến</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="date" class="form-label">Ngày khởi hành</label>
+                <input type="date" class="form-control" id="date">
+            </div>
+            <button type="submit" class="btn btn-primary">Đặt tour</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+    "contact_info": {
+      "company_name": "Du Lịch Việt Travel",
+      "address": "123 Đường Lý Thường Kiệt, Quận 10, TP.HCM, Việt Nam",
+      "phone": "+84 28 1234 5678",
+      "email": "lienhe@dulichviet.vn",
+      "working_hours": {
+        "monday_to_friday": "08:00 - 17:30",
+        "saturday": "08:00 - 12:00",
+        "sunday": "Nghỉ"
+      },
+      "social_media": {
+        "facebook": "https://www.facebook.com/dulichviet.vn",
+        "instagram": "https://www.instagram.com/dulichviet.vn",
+        "youtube": "https://www.youtube.com/@dulichviet"
+      },
+      "google_map": "https://maps.google.com/?q=123+Ly+Thuong+Kiet,+HCM"
+    }
+  }
+  
